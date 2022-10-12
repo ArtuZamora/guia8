@@ -13,7 +13,7 @@ const Formulario = ({ busqueda, guardarbusqueda, guardarconsultar }) => {
         guardarconsultar(true);
     }
     const mostrarAlerta = () => {
-        Alert.alert('Error', 'Debe seleccionar un país'), [{ Text: 'Entendido' }]
+        Alert.alert('Error', 'Debe seleccionar un país', [{ Text: 'Entendido' }])
     }
     const animacionEntrada = () => {
         Animated.spring(animacionboton, {
