@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "guia8",
+    "slug": "guia8",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
